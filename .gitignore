@@ -105,5 +105,5 @@ dist
 
 
 # Config
-./config/default.json
-config/default.json
+./config/development.json
+config/development.json
