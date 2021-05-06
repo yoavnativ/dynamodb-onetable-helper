@@ -23,6 +23,12 @@
   },
   "homepage": "https://github.com/yoavnativ/dynamodb-onetable-helper#readme",
   "dependencies": {
+    "config": "^3.3.6",
     "np": "^7.5.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.901.0",
+    "chai": "^4.3.4",
+    "nyc": "^15.1.0"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "serviceName": "replace-with-service-name",
+  "tables": {
+    "appMainTableName": "TODO: your dyanmodb table name",
+    "customersTable": {
+      "prefix": "cust#",
+      "entity": "Entity",
+      "dbMapping": {
+        "prefixId": "customer",
+        "entity": "Customer", 
+        "pkAttribute": "id",
+        "skAttribute": "name", 
+        "dataAttribute": "email"
+    }
+    }
+  },
+  "aws": {
+    "region": "TODO: your region",
+    "role": "TODO: example: arn:aws:iam::1234567890:role/my_role"
+  }
+}
